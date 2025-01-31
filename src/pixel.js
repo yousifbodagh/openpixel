@@ -25,6 +25,7 @@ class Pixel {
       ed:                   () => this.optional, // any event data to pass along
       v:                    () => Config.version, // openpixel.js version
       dl:                   () => window.location.href, // document location
+      pt:                   () => window.location.pathname, // page path
       rl:                   () => document.referrer, // referrer location
       ts:                   () => this.timestamp, // timestamp when event was triggered
       de:                   () => document.characterSet, // document encoding
